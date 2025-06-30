@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PORTFOLIO</title>
+
+    <!-- CSS LINK-- -->
+    <link rel="stylesheet"  href="style.css">
+
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+</head>
+<body>
+
+ 
+
+
+       <!-- Desktop Navbar -->
+   <div class="desktop-nav">
+     <div class="heading">PORTFOLIO</div>
+      <ul class="nav-links">
+           <li><a href="#home">Home</a></li>
+           <li><a href="#about-me">About Me</a></li>
+            <li><a href="#skills">Skills</a></li>
+           <li><a href="#projects">Projects</a></li>
+          
+           <li><a href="#contact">Contact</a></li>
+       </ul>
+    </div>
+
+      <!-- Mobile Hamburger -->
+    <div class="mobile-nav"> 
+       <div class="heading">PORTFOLIO</div>
+       <div class="hamburger" id="hamburger">&#9776;</div>
+    </div>
+    <ul class="mobile-links" id="mobile-links">
+           <li><a href="#home">Home</a></li>
+           <li><a href="#about-me">About Me</a></li>
+           <li><a href="#skills">Skills</a></li>
+           <li><a href="#projects">Projects</a></li>
+           <li><a href="#contact">Contact</a></li>
+    </ul>
+
+
+
+
+
+   <div class="main-content">
+          <!-- HOME -->
+     <div class="home"        id="home">
+        <div class="content">
+            <div class="profile">
+               <img src="./images/profile.png" alt="profile"   class="profile" >
+            </div>
+            <div class="me">
+                <p >Hello,<br>I'm  <span>  Navya Sri</span></p>
+                <p class="intro">Student | Aspiring Web developer</p>
+                <p>While I'm still learning, I enjoy turning what I know into real, functional websites.</p>
+                   <div class="social-links">
+                        <a href="#" target="_blank" title="Email">
+                           <i class="fas fa-envelope"></i>
+                        </a>
+                        <a href="#" target="_blank" title="GitHub">
+                           <i class="fab fa-github"></i>
+                        </a>
+                        <a href="#" target="_blank" title="LinkedIn">
+                          <i class="fab fa-linkedin"></i>
+                        </a>
+                   </div>
+   
+            </div>
+        </div>
+     </div>
+   </div>
+
+
+  <div class="seperator"></div>
+   
+ <div class="scroll-content">
+
+   <!-- ABOUT ME -->
+
+    <div class="about-me"  id="about-me">
+        <h4>ABOUT ME</h4>
+        <p>Hi, I'm Navyasri — a 2nd-year Electronics and Communication Engineering (ECE) student with a strong interest in web development and design.<br><br>
+
+        I'm passionate about creating clean, responsive, and user-friendly websites. While I'm still learning, I enjoy applying my skills through small projects that help me grow as a developer.<br><br>
+
+        My goal is to become a skilled front-end developer and build digital products that not only look great but also solve real-world problems.</p>
+    </div>
+  <div class="seperator"></div>
+
+  <!-- SKILLS -->
+
+    <div class="skills"   id="skills">
+       <h4>SKILLS</h4>
+      <div class="skills-section">
+         <div class="skill-wrapper">
+           <div class="skill-category">
+               <h4>LANGUAGES</h4>
+               <div class="bar"><p>C</p><div class="progress"><div class="progress-fill" style="width: 60%"></div></div></div>
+               <div class="bar"><p>Python</p><div class="progress"><div class="progress-fill" style="width: 75%"></div></div></div>
+               <div class="bar"><p>HTML</p><div class="progress"><div class="progress-fill" style="width: 90%"></div></div></div>
+               <div class="bar"><p>CSS</p><div class="progress"><div class="progress-fill" style="width: 85%"></div></div></div>
+               <div class="bar"><p>JavaScript</p><div class="progress"><div class="progress-fill" style="width: 40%"></div></div></div>
+           </div>
+
+
+           <div class="skill-category">
+               <h4>TOOLS</h4>
+               <div class="bar"><p>VS Code</p><div class="progress"><div class="progress-fill" style="width: 95%"></div></div></div>
+               <div class="bar"><p>Git</p><div class="progress"><div class="progress-fill" style="width: 55%"></div></div></div>
+               <div class="bar"><p>GitHub</p><div class="progress"><div class="progress-fill" style="width: 50%"></div></div></div>
+           </div>
+
+
+           <div class="skill-category">
+               <h4>FRAMEWORKS</h4>
+               <div class="bar"><p>Bootstrap</p><div class="progress"><div class="progress-fill" style="width: 40%"></div></div></div>
+           </div>
+        </div>
+
+      </div>
+    </div>
+
+   <div class="seperator"></div>
+  
+   <!-- PROJECTS -->
+    <div class="projects"   id="projects">
+        <h4>PROJECTS</h4>
+      <div class="project-wrapper">
+        <div class="project-details">
+            <img class="project-image"  src="./images/portfolio.png" alt="portfolio" width="200px">
+            <P class="project-name">PORTFOLIO</P>
+            <a href="#" onclick="alert('You are already viewing this site!'); return false;">View Live</a>
+
+            <button  onclick="toggleDetails(this)">Details</button>
+            <div class="details">
+                  <p><strong>Description:</strong><br>
+                     This is the current website you're viewing a responsive and visually appealing personal portfolio website built using HTML, CSS, and JavaScript. It showcases my professional skills, completed projects, and contact information in a structured layout. The site is optimized for all devices and highlights my work through interactive design and smooth user experience.
+                  </p>
+  
+                  <p><strong>Features:</strong></p>
+                    <ul>
+                       <li>Responsive design for mobile and desktop</li>
+                       <li>Smooth scrolling and navigation bar</li>
+                       <li>Interactive project showcase section</li>
+                       <li>Contact form with basic validation</li>
+                       <li>Clean UI with dark theme and vibrant accent colors</li>
+                       <li>Uses Flexbox and Grid layout for organized content presentation</li>
+                    </ul>
+
+                    <p><strong>Technologies Used:</strong><br>
+                       HTML | CSS | JavaScript
+                    </p>
+
+                    <p><strong>Role:</strong><br>
+                       Designed and developed the complete site from scratch
+                    </p>
+                         
+            </div>
+            
+            
+        </div>
+        <div class="project-details">
+            <img class="project-image"  src="./images/real estate.png" alt="real estate" width="200px">
+            <P class="project-name">REAL ESTATE WEBSITE</P>
+            <a href="https://navyasri-karri.github.io/Realestate-website/">View Live</a>
+            <button  onclick="toggleDetails(this)">Details</button>
+            <div class="details">
+                 <p><strong>Description:</strong><br>
+                     A dynamic and responsive real estate website designed to showcase property listings across multiple cities. Built with HTML, CSS, and JavaScript, the website allows users to filter properties by city, view project details, and explore available units. The layout is fully responsive, offering an intuitive and seamless experience on all devices.
+                 </p>
+  
+                 <p><strong>Features:</strong></p>
+                   <ul>
+                     <li>Dynamic property listing with city-wise filtering</li>
+                     <li>Project cards showing key details (status, location, price, features)</li>
+                     <li>Agent section with contact details and profile display</li>
+                     <li>Interactive search bar and hamburger menu for mobile view</li>
+                     <li>Responsive design using Flexbox and media queries</li>
+                     <li>Scroll-triggered behavior for enhanced UX</li>
+                   </ul>
+
+                 <p><strong>Technologies Used:</strong><br>
+                     HTML | CSS | JavaScript
+                 </p>
+
+                 <p><strong>Role:</strong><br>
+                    Designed and developed the front end of the website, including layout, responsiveness, and data integration using JavaScript objects.
+                 </p>
+            </div>
+            
+            
+        </div>
+      </div>
+    </div>
+
+  <div class="seperator"></div>
+
+
+  <!-- CONTACT  -->
+   <div class="contact"   id="contact">
+       <div class="heading">CONTACT</div>
+           <h4><i class="fas fa-envelope"></i> Email : <a  href="#">example@gmail.com</a></h4>
+           <h4> <i class="fab fa-github"></i> GitHub : <a href="#">github link</a></h4>
+           <h4><i class="fab fa-linkedin"></i> Linkedin : <a href="#">linkedin</a></h4>
+           <h4><i class="fas fa-map-marker-alt"></i> Location :  <a href="#">Visakhapatnam, India</a></h4>
+       <div class="contact-form">
+          <h4>Send a message : </h4>
+          <form >
+             <input type="text"   placeholder="Your name"  required> 
+             <input type="email"  placeholder="Your email" required>
+             <textarea placeholder="Your message"  rows="5"></textarea>
+             <button type="submit">Submit</button>
+          </form>
+       </div>
+   
+   </div>
+ </div>
+
+
+
+
+
+
+
+
+
+
+
+
+    
+
+    <!-- --JS LINK-- -->
+    <script src="script.js"></script>
+
+    
+</body>
+</html>
