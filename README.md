@@ -42,9 +42,5 @@ This is a responsive personal portfolio website developed to showcase education,
 1. Clone or download the repository.
 2. Open the project folder.
 3. Open `index.html` in any modern web browser.
-
-No additional installation or setup is required.
-
-
-
+---
 Developed as a personal portfolio to showcase my skills, projects, and learning journey in software development.
